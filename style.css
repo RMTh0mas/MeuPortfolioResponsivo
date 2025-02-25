@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url(styles/sobre.css);
+@import url(styles/home.css);
+@import url(styles/carreira.css);
+@import url(styles/projetos.css);
+@import url(styles/tecnologias.css);
+@import url(styles/contatos.css);
+
+:root{
+    --cor-primaria: #090E16;
+    --cor-secundaria: #ced4da;
+    --cor-terciaria: #5c7aff;
+    --cor-semi-transparente: #5c7aff1A;
+    --cor-destaque: #5c7aff;
+    --branco: white;
+    --verde: #008000;
+    --verde-semi-transparente: #0080001A;
+    --branco-semi-transparente: #FFFFFF80;
+
+    --fonte-primaria: "Raleway", serif;
+    --peso-fonte-normal: 400;
+    --peso-fonte-semi-bold: 600;
+    --peso-fonte-bold: 700;
+    --peso-fonte-extra-bold: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+
+

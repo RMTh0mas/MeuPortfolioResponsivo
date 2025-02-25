@@ -1,0 +1,136 @@
+#carreira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 7vw;
+}
+
+.carreira__apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.carreira__curriculo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carreira__tipo {
+    padding: 2em 5em;
+    max-width: 30vw;
+}
+
+.carreira__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0;
+}
+
+.carreira__titulo {
+    font-size: 32px;
+    font-weight: var(--peso-fonte-extra-bold);
+    color: var(--branco);
+}
+
+.carreira__tempo {
+    font-size: 24px;
+    font-weight: var(--peso-fonte-normal);
+    color: var( --branco-semi-transparente);
+}
+
+.carreira__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.carreira__item {
+    padding: 1.5em 2em;
+    border: solid 1px var(--cor-terciaria);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15em;
+    min-width: 15em;
+}
+
+.carreira__item:hover {
+    background-color: var(--cor-semi-transparente);
+}
+
+.item__tempo {
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor-terciaria);
+    font-size: 18px;
+    font-weight: var(--peso-fonte-bold);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    #carreira {
+        display: block;
+        padding: 0 0 0 2em;
+    }
+
+    .carreira__apresentacao {
+        align-items: flex-start;
+        gap: 1em; 
+    }
+
+    .carreira__descricao {
+       padding: 2em 0;
+       margin: 0;
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+
+    .carreira__titulo {
+        font-size: 16px;
+    }
+
+    .carreira__tempo {
+        font-size: 12px;
+    }
+
+    .carreira__tipo {
+        padding: 0em 0em;
+        max-width: min-content;
+    }
+
+    .carreira__curriculo {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .carreira__lista {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        flex-direction: row;
+        overflow-x: scroll;
+        padding-bottom: 1em;
+        padding-right: 2em;
+        gap: 1em;
+    }
+
+    .carreira__item {
+        padding: 1em 1.5em;
+        height: auto;
+        width: 40em;
+    }
+
+    .item__tempo {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,47 @@
+.sobre__apresentacao {
+    display: flex;
+    padding: 5em 10vw;
+    gap: 4em;
+    justify-content: space-between;
+}
+
+.sobre__apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#minha__foto {
+    width: 30vw;
+    border-radius: 1em;
+}
+
+.apresentacao__conteudo__texto {
+    font-family: var(--fonte-primaria);
+    color: var(--branco-semi-transparente);
+    font-size: 18px;
+}
+
+.emoji {
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .sobre__apresentacao {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 10vw;
+    }
+
+    #minha__foto {
+        width: 65vw;
+        border-radius: 0.5em;
+    }
+
+    
+}
+
+
