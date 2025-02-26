@@ -21,6 +21,7 @@
     font-family: var(--fonte-primaria);
     color: var(--branco-semi-transparente);
     font-size: 18px;
+    text-align: justify;
 }
 
 .emoji {

@@ -45,13 +45,19 @@
     color: var(--branco-semi-transparente);
 }
 
-.link__whatsapp {
+.link__telegram {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--cor-terciaria);
     padding: 0.7em 0.5em;
     border-radius: 1em;
     border: 1px solid var(--cor-terciaria);
     font-size: 1.25rem;
+}
+
+.link__telegram:hover{
+    background-color: var(--cor-semi-transparente);
 }
 
 @media screen and (max-width: 1024px) {
@@ -79,7 +85,19 @@
         align-items: flex-start;
     }
 
+    #email__titulo, #email {
+        font-size: 1rem;
+        font-weight: var(--fonte-peso-normal);
+    }
+
     .link__whatsapp{
         border-radius: 0.5em;
+    }
+
+    .link__telegram {
+        padding: 0.5em 0.5em;
+        border-radius: 1em;
+        border: 1px solid var(--cor-terciaria);
+        font-size: 1rem;
     }
 }

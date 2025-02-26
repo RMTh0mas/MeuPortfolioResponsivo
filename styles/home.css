@@ -86,12 +86,13 @@
     font-size: 2em;
 }
 
-.bi-download, .bi-whatsapp {
+.bi-download {
     font-size: 1em;
 }
 
-.bi-whatsapp {
-    margin: 0 0.5em 0 0.5em;
+.bi-telegram {
+    font-size: 1.3em;
+    margin: 0 0.5em 0 0.2em;
 }
 
 .bi-code-slash, .bi-person-workspace, .bi-window-fullscreen {
@@ -129,7 +130,14 @@
     align-items: end;
 }
 
+.apresentacao__contato > a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
 .contato__link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--cor-terciaria);
     padding: 0.7em 0.5em;
@@ -292,17 +300,18 @@ hr {
     .apresentacao__conteudo__titulo-principal {
         order: 3;
         font-size: 48px;
-        margin: 0.5em 0 0.2em 0;
+        padding: 0.2em 0 0.2em 0;
     }
 
     .apresentacao__conteudo__subtitulo {
         font-size: 18px;
-        margin-bottom: 1.5em;
+        padding-bottom: 1.5em;
         order: 4;
     }
 
     .contato__link {
         border-radius: 0.5em;
+        padding: 0.5em 0.5em;
     }
 
     .item__destaque {
@@ -314,11 +323,15 @@ hr {
     }
 
     .topicos__lista {
-        gap: 2em;
+        gap: 1.5em;
     }
 
     .topicos {
         padding: 4em 0;
+    }
+
+    .topicos__item {
+        padding: 2em 1em;
     }
 
     hr {

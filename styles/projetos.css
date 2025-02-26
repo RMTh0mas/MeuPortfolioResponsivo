@@ -59,6 +59,7 @@
 .item__texto {
     font-size: 0.875rem;
     color: var(--branco-semi-transparente);
+    text-align: justify;
 }
 
 .item__info {
