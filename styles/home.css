@@ -146,6 +146,10 @@
     font-size: 1rem;
 }
 
+.contato__link:hover {
+    background-color: var(--cor-semi-transparente);
+}
+
 hr {
     margin: 0;
     background-color: #5c7aff33;
