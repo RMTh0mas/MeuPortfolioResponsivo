@@ -161,14 +161,13 @@ hr {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5em 20vw;
+    padding: 5em 25vw;
     gap: 4em;
 }
 
 .topicos__lista {
     display: flex;
-    justify-content: center;
-    gap: 4em;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
 }
@@ -327,6 +326,7 @@ hr {
     }
 
     .topicos__lista {
+        justify-content: center;
         gap: 1.5em;
     }
 
