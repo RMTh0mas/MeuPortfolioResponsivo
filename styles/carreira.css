@@ -60,7 +60,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 15em;
-    min-width: 15em;
+    min-width: fit-content;
 }
 
 .carreira__item:hover {
