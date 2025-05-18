@@ -197,11 +197,6 @@ hr {
     font-weight: var(--peso-fonte-bold);
 }
 
-.lista__destaque {
-    background-color: var(--cor-semi-transparente);
-    border-radius: 1em;
-    text-align: center;
-}
 
 .alternativo {
     border: none;
@@ -319,10 +314,6 @@ hr {
 
     .item__destaque {
         font-size: 1.5rem;
-    }
-
-    .lista__destaque {
-        display: none;
     }
 
     .topicos__lista {
